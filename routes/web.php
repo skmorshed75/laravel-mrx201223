@@ -23,7 +23,7 @@ Route::get("/aboutData",[HomeController::class,'aboutData']);
 Route::get("/socialData",[HomeController::class,'socialData']);
 
 //Contact Page
-Route::get("/contactRequest",[ContactController::class,'contactRequest']);
+Route::post("/contactRequest",[ContactController::class,'contactRequest']);
 
 //Project Page
 Route::get("/projectData",[ProjectController::class,'projectData']);

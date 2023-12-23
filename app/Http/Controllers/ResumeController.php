@@ -12,7 +12,7 @@ class ResumeController extends Controller
     }
 
     function resumeLink(Request $request){
-        return DB::table('resume')->first();
+        return DB::table('resumes')->first();
     }
 
     function experienceData(Request $request){
