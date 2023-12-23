@@ -3,18 +3,31 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class ResumeController extends Controller
 {
-    function page(Request $request){}
+    function page(Request $request){
+        return view('pages.resume');
+    }
 
-    function resumeLink(Request $request){}
+    function resumeLink(Request $request){
+        return DB::table('resume')->first();
+    }
 
-    function experienceData(Request $request){}
+    function experienceData(Request $request){
+        return DB::table('experiences')->get();
+    }
 
-    function educationData(Request $request){}
+    function educationData(Request $request){
+        return DB::table('educations')->get();
+    }
 
-    function skillsData(Request $request){}
+    function skillsData(Request $request){
+        return DB::table('skills')->get();
+    }
 
-    function languageData(Request $request){}
+    function languageData(Request $request){
+        return DB::table('languages')->get();
+    }
 }

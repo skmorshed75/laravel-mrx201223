@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 //PAGE ROUTES
 Route::get("/",[HomeController::class,'page']);
 Route::get("/contact",[ContactController::class,'page']);
-Route::get("/prjects",[ProjectController::class,'page']);
+Route::get("/projects",[ProjectController::class,'page']);
 Route::get("/resume",[ResumeController::class,'page']);
 
 //AJAX CALL ROUTES
