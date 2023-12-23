@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\DB;
 class HomeController extends Controller
 {
     function page(Request $request){
-        return view("/");
+        return view("/pages.home");
     }
 
     function heroData(Request $request){
