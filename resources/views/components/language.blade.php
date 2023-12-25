@@ -31,7 +31,20 @@
     async function LanguageList(){
         let URL = "/languageData";
         try {
+
+            //PRE LOADER SHOW AND HIDE CONTENT DIV
+            //document.getElementById('loading-div').classList.remove('d-none');
+            //document.getElementById('content-div').classList.add('d-none');
+            //end PRE LOADER SHOW
+
             let response = await axios.get(URL); //API calling with ajax
+
+            //PRE LOADER HIDE AND SHOW CONTENT DIV
+            //document.getElementById('loading-div').classList.add('d-none');
+            //document.getElementById('content-div').classList.remove('d-none');
+            //end PRE LOADER HIDE
+            
+            
             response.data.forEach(element => {
                 document.getElementById('language-list').innerHTML+= (
                 `<div class="col mb-4 p-3 mb-md-0">

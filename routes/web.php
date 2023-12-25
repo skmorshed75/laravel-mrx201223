@@ -18,7 +18,7 @@ Route::get("/resume",[ResumeController::class,'page']);
 
 //AJAX CALL ROUTES
 //Homepage
-Route::get("/herodata",[HomeController::class,'heroData']);
+Route::get("/heroData",[HomeController::class,'heroData']);
 Route::get("/aboutData",[HomeController::class,'aboutData']);
 Route::get("/socialData",[HomeController::class,'socialData']);
 
