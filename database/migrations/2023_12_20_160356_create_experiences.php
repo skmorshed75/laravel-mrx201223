@@ -15,7 +15,8 @@ return new class extends Migration
             $table->id();
             $table->string('duration',50);
             $table->string('title',50);
-            $table->string('designation',200);
+            $table->string('company',100);
+            $table->string('location',100);
             $table->text('details');
             $table->timestamps();
         });
