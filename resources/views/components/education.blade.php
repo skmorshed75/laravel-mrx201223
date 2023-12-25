@@ -7,6 +7,7 @@
                 <!-- Education Card 1-->
                 <div id="education-list">
 
+                    {{-- CALL AJAX HERE --}}
 
                 </div>
             </section>
