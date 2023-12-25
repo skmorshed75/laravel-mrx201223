@@ -16,6 +16,8 @@
         <link href="{{asset('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css')}}" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="{{asset('css/styles.css')}}" rel="stylesheet" />
+        <script src="{{asset('js/axios.min.js')}}"></script>
+        {{-- <script src="{{asset('https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js')}}"></script> --}}
     </head>
 
     <body class="d-flex flex-column h-100">
@@ -34,6 +36,6 @@
         <!-- Core theme JS-->
         <script src="{{asset('js/scripts.js')}}"></script>
         <script src="{{asset('https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')}}"></script>
-        <script src="{{asset('https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js')}}"></script>
+
     </body>
 </html>
