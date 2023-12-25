@@ -30,7 +30,7 @@ Route::get("/projectData",[ProjectController::class,'projectData']);
 
 //Resume Page
 Route::get("/resumelink",[ResumeController::class,'resumeLink']);
-Route::get("/experiencedata",[ResumeController::class,'experienceData']);
+Route::get("/experienceData",[ResumeController::class,'experienceData']);
 Route::get("/educationData",[ResumeController::class,'educationData']);
 Route::get("/skillsData",[ResumeController::class,'skillsData']);
 Route::get("/languageData",[ResumeController::class,'languageData']);
